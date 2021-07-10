@@ -1,0 +1,4 @@
+<!--pages/user/user.wxml-->
+<button bindtap="fun">获取用户信息</button>
+<image src="{{userInfo.avatarUrl}}"></image>
+<text>{{userInfo.nickName}}</text>
