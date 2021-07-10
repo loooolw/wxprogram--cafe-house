@@ -1,0 +1,59 @@
+/* pages/list/list.wxss */
+.list{
+  height: 100vh;
+  display: flex;
+  border-top: 2rpx solid #cccccc;
+}
+.list .left{
+  width: 25%;
+  height: 100%;
+  background-color: #F8F8F8;
+}
+.list .left .left-scroll{
+  height: 100%;
+}
+.list .right{
+  width: 75%;
+  height: 100%;
+}
+.list .left view{
+  text-align:center;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-bottom:2rpx solid #2d2d2d;
+}
+
+.list .right-scroll .right-box .img{
+  height: 300rpx;
+}
+.list .right-scroll .right-box .img image{
+  height: 100%;
+}
+.list .right .right-scroll .right-box .title{
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  background-color: #ccc;
+  border-radius: 10rpx;
+  margin: 20rpx;
+}
+.list .right .right-scroll .right-box .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-content:flex-start;
+  justify-content:space-between;
+}
+.list .right .right-scroll .right-box .content view{
+  width: 32%;
+  height: 300rpx;
+  text-align: center;
+}
+.list .right .right-scroll .right-box .content view image{
+  width: 90%;
+  height: 200rpx;
+}
+.list .right .right-scroll .right-box .content view text{
+  font-size: 28rpx;
+  display: block;
+  height: 100rpx;
+}

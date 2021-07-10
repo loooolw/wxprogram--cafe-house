@@ -1,0 +1,32 @@
+<!--pages/list/list.wxml-->
+<view class="list">
+  <view class="left">
+    <scroll-view scroll-y class="left-scroll">
+      <view wx:for="{{CategoryList}}" data-index="{{index}}" bindtap="lefttap"> {{item.cate_name}}</view>
+    </scroll-view>
+  </view>
+  <view class="right">
+    <scroll-view scroll-y class="right-scroll">
+      <view class="right-box" wx:if="{{CategoryList[idx].ishaveChild}}">
+        <view class="img">
+          <image src="{{CategoryList[idx].banner_url}}">
+          </image>
+        </view>
+        <view class="title">
+          <text>{{CategoryList[idx].cate_name}}</text>
+        </view>
+        <view class="content">
+          <view wx:for="{{CategoryList[idx].children}}" bindtap="tapfun" data-text="{{item.name}}"
+            data-imgsrc="{{item.image}}">
+            <image src="{{item.image}}">
+            </image>
+            <text>{{item.name}}</text>
+          </view>
+        </view>
+      </view>
+      <view wx:else>
+        <text>暂无商品</text>
+      </view>
+    </scroll-view>
+  </view>
+</view>
