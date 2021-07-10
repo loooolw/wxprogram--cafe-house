@@ -1,0 +1,18 @@
+<!--pages/news/news.wxml-->
+<view>
+<view>
+  <view>
+<image src="{{img}}"></image>
+  </view>
+</view>
+<view class="text">
+  <image src="/images/new/cofe.jfif"></image>
+  <text>选择咖啡</text>
+  <image src="/images/new/cofe.jfif"></image>
+</view>
+  <view class="newbox">
+    <view wx:for="{{newarr}}" class="{{index == num ? 'select' : ''}}">
+      <image src="{{item}}" bindtap="tapfun" data-index="{{index}}"></image>
+    </view>
+  </view>
+</view>

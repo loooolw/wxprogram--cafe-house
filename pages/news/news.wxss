@@ -1,0 +1,37 @@
+/* pages/news/news.wxss */
+
+.text{
+  text-align: center;
+  padding: 20rpx 20rpx 30rpx 20rpx;
+}
+
+.text image{
+  height: 60rpx;
+  width: 50rpx;
+}
+
+.newbox{
+  padding: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content:flex-start;
+}
+
+.newbox view{
+  margin-bottom: 15rpx;
+  width: 32%;
+  height: 150rpx;
+  box-sizing: boder-box;
+  opacity: 0.8;
+}
+
+.newbox view image{
+  width: 100%;
+  height: 100%;
+}
+
+.newbox .select{
+  border:2rpx solid #fc1;
+  opacity: 1;
+}
