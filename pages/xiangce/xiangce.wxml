@@ -1,0 +1,7 @@
+<!--pages/xiangce/xiangce.wxml-->
+<view class="box">
+  <view wx:for="{{imgArr}}" >
+    <image src="{{item}}"></image>
+  </view>
+  
+</view>
