@@ -1,0 +1,30 @@
+{
+  "id": "2501215",
+  "name": "ka'fei",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577393",
+      "name": "顶部",
+      "font_class": "dingbu",
+      "unicode": "e76c",
+      "unicode_decimal": 59244
+    },
+    {
+      "icon_id": "9231569",
+      "name": "相册",
+      "font_class": "xiangce",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "9974415",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e703",
+      "unicode_decimal": 59139
+    }
+  ]
+}
