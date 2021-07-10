@@ -1,0 +1,12 @@
+/* pages/kefu/kefu.wxss */
+page{
+  background-color: floralwhite;
+}
+map{
+  width: 100%;
+  height: 500rpx;
+}
+.text{
+  color: darkgray;
+  font-size: 40rpx;
+}

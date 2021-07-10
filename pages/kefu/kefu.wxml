@@ -1,0 +1,15 @@
+<!--pages/kefu/kefu.wxml-->
+<map longitude="113.37779599759094" latitude="23.13211891250585" markers="{{markers}}" ></map>
+<view style="white-space:pre-wrap">
+  <view class="box"><text class="text">公司总部</text></view>
+  <text>
+地址：广州市天河区涌东路大地工业区D栋603室
+邮编：524000</text>
+  <view class="box"><text class="text">客服服务</text></view>
+  <text>
+客服热线：020-85628002
+在线时间：24小时
+邮箱：1114806364@qq.com
+</text>
+</view> 
+<mybtn></mybtn>
