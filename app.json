@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/user/user",
+    "pages/home/home",
+    "pages/xiangce/xiangce",
+    "components/btn/btn",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/kefu/kefu",
+    "pages/news/news"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00f",
+    "list":[
+      {
+      "pagePath":"pages/home/home",
+      "text":"首页",
+      "iconPath":"/images/bar1_1.png",
+      "selectedIconPath": "/images/bar1.png"
+    },
+    {
+      "pagePath":"pages/list/list",
+      "text":"菜单",
+      "iconPath":"/images/bar2_2.png",
+      "selectedIconPath": "/images/bar2.png"
+    },
+    {
+      "pagePath":"pages/news/news",
+      "text":"新品",
+      "iconPath":"/images/bar3_3.png",
+      "selectedIconPath": "/images/bar3.png"
+    },
+    {
+      "pagePath":"pages/kefu/kefu",
+      "text":"客服",
+      "iconPath":"/images/bar4_4.png",
+      "selectedIconPath": "/images/bar4.png"
+    }
+    ]
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
