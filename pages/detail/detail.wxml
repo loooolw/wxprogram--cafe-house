@@ -1,0 +1,3 @@
+<!--pages/detail/detail.wxml-->
+<image src="{{imgobj.img}}"></image>
+<text>{{imgobj.text}}</text>
