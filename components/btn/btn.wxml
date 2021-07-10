@@ -1,0 +1,12 @@
+<!--components/btn/btn.wxml-->
+<view class="btn">
+  <view bindtap="topfun">
+    <text class="iconfont icon-dingbu icon"></text>
+  </view>
+  <view bindtap="xiangcefun">
+    <text class="iconfont icon-xiangce icon"></text>
+  </view>
+  <view bindtap="dianhuafun">
+    <text class="iconfont icon-dianhua icon"></text>
+  </view>
+</view>
