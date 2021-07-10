@@ -1,0 +1,65 @@
+<!--pages/home/home.wxml-->
+<view class="swiper-box">
+  <swiper class="banner" autoplay interval="2000" duration="1000" circular bindchange="changefun" >
+    <swiper-item wx:for="{{bannerarr}}" wx:key="*this">
+      <image src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+  <view class="swiper-dots">
+    <view wx:for="{{bannerarr}}" class="{{index == num ? 'select' : ''}}"></view>
+  </view>
+</view>
+<view class="box">
+  <view class="left">
+    <image src="/imaghome/home/pro1.jpg"></image>
+  </view>
+  <view class="right">
+    <view>
+      <image src="/imaghome/home/pro2.jpg"></image>
+      <image src="/imaghome/home/pro3.jpg"></image>
+    </view>
+  </view>
+</view>
+<view class="box1">
+<view class="left">
+  <image src="/imaghome/home/pro4.jpg"></image>
+</view>
+<view class="right">
+  <image src="/imaghome/home/pro5.jpg"></image>
+</view>
+</view>
+<view class="text">
+  <text>咖啡馆故事</text>
+</view>
+<view class="scroll">
+ <scroll-view class="scroll-view" scroll-x="true">
+   <view wx:for="{{homearr}}">
+     <image src="{{item.src}}"></image>
+     <text>{{item.text}}</text>
+   </view>
+ </scroll-view>
+</view>
+<view class="text text-border">
+  <text>猜你喜欢</text>
+</view>
+<view></view>
+<view class="xihuanbox">
+  <swiper class="xihuan" autoplay interval="2000" duration="1000" circular indicator-dots vertical indicator-active-color="#000">
+    <swiper-item wx:for="{{xihuanarr}}" wx:key="*this">
+      <image src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+  </view>
+  <view class="text text-border">
+  <text>猜你喜欢</text>
+</view>
+<view class="likebox">
+  <view class="likebox-content">
+     <view wx:for="{{likearr}}">
+    <image src="{{item.src}}"></image>
+    <text>{{item.text}}</text>
+  </view>
+  </view>
+ 
+</view>
+<mybtn></mybtn>

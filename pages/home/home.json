@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mybtn":"/components/btn/btn"
+  },
+  "navigationStyle":"custom"
+}

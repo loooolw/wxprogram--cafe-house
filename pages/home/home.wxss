@@ -1,0 +1,200 @@
+/* pages/home/home.wxss */
+.swiper-box {
+  position: relative;
+}
+
+.banner {
+  height: 500rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-dots {
+  position: absolute;
+  right: 20rpx;
+  bottom: 20rpx;
+}
+
+.swiper-dots view {
+  width: 20rpx;
+  height: 20rpx;
+  float: left;
+  margin-right: 10rpx;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.swiper-dots .select{
+  width: 40rpx;
+  height: 20rpx;
+  background-color: dodgerblue;
+  border-radius: 10rpx;
+}
+
+.box{
+  display: flex;
+  padding: 20rpx;
+  justify-content: space-between ;
+}
+
+.box .left{
+  width: 38%;
+  height: 300rpx;
+}
+
+.box .right{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.box .right view{
+  height: 147rpx;
+  width: 100%;
+}
+
+.box image{
+  width: 100%;
+  height: 100%;
+}
+
+.box1 image{
+  width: 100%;
+  height: 100%;
+}
+
+.box1{
+  display: flex;
+  margin: 0 20rpx 20rpx 20rpx;
+  justify-content: space-between ;
+}
+
+.box1 .right{
+  height: 170rpx;
+  width: 38%;
+}
+
+.box1 .left{
+  height: 170rpx;
+  width: 60%;
+}
+
+.text{
+  text-align: center;
+  padding: 20rpx 0 30rpx 0;
+  position: relative;
+}
+
+.text-border{
+  border-bottom: 4rpx solid #000;
+  margin-bottom: 40rpx;
+}
+
+.text::before {
+  content: "";
+  width: 40rpx;
+  height: 7rpx;
+  background-color: silver;
+  display: block;
+  top: 43rpx;
+  position: absolute;
+  left: calc(50% - 150rpx);
+  border-radius: 20rpx;
+}
+
+.text::after {
+  content: "";
+  width: 40rpx;
+  height: 7rpx;
+  background-color: silver;
+  display: block;
+  top: 43rpx;
+  position: absolute;
+  left: calc(50% + 110rpx);
+  border-radius: 20rpx;
+}
+
+.scroll{
+  padding:10rpx;
+}
+
+.scroll-view{
+  white-space: nowrap;
+  height: 280rpx;
+}
+
+.scroll-view view{
+  display: inline-block;
+  width: 80%;
+  border-radius: 20rpx;
+}
+
+.scroll view{
+  width: 35%;
+  height: 250rpx;
+  margin-right: 20rpx;
+  box-shadow: 0 0 10rpx lightslategrey;
+}
+
+.scroll view:last-child{
+  margin-right: 0rpx;
+}
+
+.scroll view image{
+  width: 100%;
+  height: 200rpx;
+}
+
+.scroll view text{
+  display: block;
+  height: 50rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.xihuanbox{
+  margin: 0 0 20rpx 0;
+  height: 500rpx;
+}
+
+.xihuan{
+  height: 500rpx;
+}
+
+.xihuan image{
+  height: 100%;
+}
+
+.likebox .likebox-content{
+  padding: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.likebox .likebox-content view{
+  width: 48%;
+  border-radius: 20rpx;
+  overflow: hidden;
+  box-shadow: 0 0 10rpx #ccc;
+  margin-bottom: 20rpx;
+}
+
+.likebox .likebox-content view image{
+  width: 100%;
+  height: 300rpx;
+  vertical-align: middle;
+}
+
+.likebox .likebox-content view text{
+  display: block;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  color: #000;
+  font-size: 28rpx;
+}
